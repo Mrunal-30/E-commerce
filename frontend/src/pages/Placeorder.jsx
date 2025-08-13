@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 import { ShopContext } from "../context/ShopContext";
 import axios from "axios";
 import { toast, Bounce } from "react-toastify";
-import { currency } from "../../../admin/src/App";
+
 
 const Placeorder = () => {
   const [method, setMethod] = useState("cod");
